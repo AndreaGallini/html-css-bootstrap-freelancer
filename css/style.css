@@ -4,6 +4,7 @@
     --ligth-gray:#3A546D;
     --white:#fff;
     --black-transparent:rgba(0,0,0,0.5);
+    --green-hover:#2eecb0;
 }
 .my-bg-gray{
     background-color: var(--gray);
@@ -51,16 +52,18 @@ header{
     padding: 3px;
     border: 1px solid white;
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    vertical-align:middle;
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
     text-align: center;
 }
 #footerbottom{
     background-color: var(--gray);
 }
 .my-button{
-   width: 100px;
+margin-top: 50px;
+   width: 200px;
+   align-self: center;
 }
 .mylayover{
     width:100%;
@@ -73,12 +76,13 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    display: none;    
+    display: none;   
 }
 .mylayover i{
     color: var(--white);
     font-size: 40px;
     padding: 0;
+    
 
     
 
@@ -92,4 +96,14 @@ header{
     align-items: center;
     justify-content: center;
     cursor: pointer;
+}
+#start-boot{
+    text-decoration: underline;
+    color: var(--green);
+    font-weight: bold;
+    transition: all 1s;
+}
+#start-boot:hover{
+    cursor: pointer;
+    color: var(--green-hover);
 }
