@@ -5,6 +5,7 @@
     --white:#fff;
     --black-transparent:rgba(0,0,0,0.5);
     --green-hover:#2eecb0;
+    --black:#000;
 }
 .my-bg-gray{
     background-color: var(--gray);
@@ -102,4 +103,23 @@ header{
 #start-boot:hover{
     cursor: pointer;
     color: var(--green-hover);
+}
+
+.star:before , .star:after{
+    content: "";
+    display: block;
+    background-color: var(--white);
+    height: 3px;
+    width: 40%;
+}
+.star{
+    width: 300px;
+    padding: 20px 0;
+    color: var(--white);
+}
+#portfolio .star:before , #portfolio .star:after{
+    background-color: var(--black);
+}
+#portfolio .star{
+    color: var(--black);
 }
