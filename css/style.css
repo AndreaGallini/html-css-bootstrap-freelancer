@@ -139,3 +139,10 @@ header{
 #contact button{
     margin: 30px 0;
 }
+.no-border{
+    border: 0;
+    appearance: none;
+}
+.my-border{
+    border-bottom: 1px solid black;
+}
